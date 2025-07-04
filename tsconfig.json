@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "rootDir": "./src",
+        "paths": { "@/*": ["./src/*"] },
+        "moduleResolution": "node",
+        "removeComments": true,
+        "noEmitOnError": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+}
